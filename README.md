@@ -14,3 +14,5 @@ The creation of the VR World was motivated by a University assignment allocated 
 [ Zenodo Release Link ](https://zenodo.org/record/4088895#.X4dw4NBKiUk)
 
 [GitHub Link](https://github.com/Chambers11/964089-Assignment-2)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4088895.svg)](https://doi.org/10.5281/zenodo.4088895)
