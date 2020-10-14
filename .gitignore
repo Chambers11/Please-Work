@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Please Work.sln
+/Assembly-CSharp-Editor.csproj
+/Assembly-CSharp.csproj
+/Temp
+/obj/Debug
+/Library
+/.vs
