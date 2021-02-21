@@ -17,27 +17,106 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-# Header 1
-## Header 2
-### Header 3
+<body>
+    <div>
+        <div class="header-blue" style="background: linear-gradient(-89deg, #485563, #29323c);">
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+                <div class="container-fluid"><a class="navbar-brand" href="index.html" style="color: #ffa44d;">Locked Inn</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/jbengey/LockedInn">GitHub</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/jbengey/LockedInn/releases/download/v1.1.0/Locked.Inn.VR.-.V1.1.0.zip">Download</a></li>
+                        </ul>
+                        <form class="form-inline mr-auto" target="_self">
+                            <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                        </form><span class="navbar-text"> </span>
+                    </div>
+                </div>
+            </nav>
+            <div class="container hero">
+                <div class="row" style="margin-left: -53px;margin-top: 2px;">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1" style="margin-top: -53px;">
+                        <h1>An Immersive VR Experience.</h1>
+                        <p>Locked Inn is a VR pub experience created to allow individuals to feel immersed in a pub environment, as covid-19 restrictions (lock down) don't allow them to do so in person.<br></p><a class="btn btn-light btn-lg action-button" role="button" href="https://github.com/jbengey/LockedInn/releases/download/v1.1.0/Locked.Inn.VR.-.V1.1.0.zip">Download Now</a>
+                    </div>
+                    <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                        <div class="phone-mockup"><img class="d-xl-flex justify-content-xl-center align-items-xl-center device" data-bs-hover-animate="pulse" src="assets/img/LockedInnLogo.png" style="width: 449px;margin-left: -109px;margin-top: 65px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Pub Features </h2>
+                <p class="text-center">Our traditional pub is packed full of features for you to explore!</p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="box"><i class="fa fa-arrows icon" style="color: rgb(255,130,12);"></i>
+                        <h3 class="name">Continuous Movement</h3>
+                        <p class="description">A simple locomotion system allows you to explore every aspect of the pub.<br><br>Left controller analog stick: <strong>Move</strong><br>Right controller analog stick: <strong>Rotate</strong></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="box"><i class="fa fa-home icon" style="color: rgb(255,130,12);"></i>
+                        <h3 class="name">Full PBR Enviroment</h3>
+                        <p class="description">A classic pub environment recreated with full implementation of PBR texturing. <br><br>With custom assets and atmospheric lighting supporting the feel of a real pub.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="box"><i class="fa fa-glass icon" style="color: #ff820c;"></i>
+                        <h3 class="name">Throwable Glass</h3>
+                        <p class="description">Every beer and wine glass found around the pub can be interacted with.<br><br>Fancy being reckless? Throw a glass and watch it break into pieces.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="box"><i class="fa fa-male icon" style="color: #ff820c;"></i>
+                        <h3 class="name">Interactable NPC's<br></h3>
+                        <p class="description">Bust a move with some of the pub regulars.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="box"><i class="fa fa-money icon" style="color: #ff820c;"></i>
+                        <h3 class="name">Functioning Fruit Machines<br></h3>
+                        <p class="description">Try your luck on the pub fruit machines.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="box"><i class="fa fa-music icon" style="color: #ff820c;"></i>
+                        <h3 class="name">Darts &amp; Jukebox</h3>
+                        <p class="description">Enjoy the varied music or throw a dart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="height: 900px;background: url(&quot;assets/img/6.png&quot;);"></div>
+                <div class="swiper-slide" style="background: url(&quot;assets/img/4.png&quot;);height: 900px;"></div>
+                <div class="swiper-slide" style="background: url(&quot;assets/img/5.png&quot;);height: 900px;"></div>
+                <div class="swiper-slide" style="background: url(&quot;assets/img/2.png&quot;);height: 900px;"></div>
+                <div class="swiper-slide" style="background: url(&quot;assets/img/3.png&quot;);height: 900px;"></div>
+                <div class="swiper-slide" style="background: url(&quot;assets/img/1.png&quot;);height: 900px;"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <section class="clean-block clean-info dark" style="color: rgb(238,244,247);">
+        <div class="container">
+            <div class="videoWrapper"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/lkHlNDe5y14" class="embed-responsive-item" width="100%" height="auto"></iframe></div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chambers11/Assignment-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html> 
